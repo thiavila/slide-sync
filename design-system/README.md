@@ -59,3 +59,9 @@ Títulos principais: 40–76px desktop, 36–44px mobile, peso 600 e entrelinha 
 Descompacte o ZIP, abra `chrome://extensions`, ative o modo desenvolvedor e use “Carregar sem compactação” selecionando a pasta que contém `manifest.json`. Evite executar simultaneamente duas cópias da extensão no mesmo teste. Abra uma apresentação nova/recarregue a aba depois de carregar a extensão.
 
 Verifique Google Slides e Reveal.js, início/fim de sessão, QR ligado/desligado e posições, popup ativo/inativo, atualização dos slides no celular, anotações e PDF. O ZIP é para validação local; esta entrega não publica a extensão na loja.
+
+## Logos e camadas
+
+No site, usar assets em `/brand/` com hash no nome. Trocar o conteúdo de `/logo.png` mantendo a mesma URL pode deixar usuários recorrentes com a imagem antiga no cache. A URL deve mudar junto com o arquivo. No drawer, o botão circular fica na camada 0 e o conteúdo em uma superfície branca opaca na camada 1. Verificar aberto e fechado, incluindo o painel avançado.
+
+Crédito de interface: “Criado por Thiago Avila · Avila Ventures”, traduzido nos catálogos, com link `https://avila.ventures`. Avisos de licença de dependências continuam preservados.

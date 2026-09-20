@@ -41,9 +41,6 @@
   "presentButtonAria": {
     "message": "Presentar con slidesync"
   },
-  "inspiredBy": {
-    "message": "Inspirado por"
-  },
   "sponsorMessage": {
     "message": "Mantener slidesync cuesta unos $$10/mes. Si te ha sido útil en tus presentaciones, una pequeña contribución significa muchísimo."
   },
@@ -97,5 +94,8 @@
   },
   "copyFailed": {
     "message": "No se pudo copiar. Selecciona el código manualmente."
+  },
+  "createdBy": {
+    "message": "Creado por"
   }
 }

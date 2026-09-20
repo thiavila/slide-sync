@@ -1,4 +1,4 @@
-/* ===== EDIT MODE: Toolbar Button (like Remote for Slides) ===== */
+/* ===== EDIT MODE: Toolbar Button ===== */
 #slidesync-present-btn {
   box-sizing: border-box;
   border-radius: 20px;
@@ -583,3 +583,8 @@
 .slidesync-drawer{background:#fff;color:#242134;border-left:1px solid #e8e5ef}.slidesync-drawer .slidesync-toggle-btn{background:#f6f4fc}.slidesync-drawer .slidesync-drawer-content{padding:24px;align-items:stretch}.slidesync-drawer .slidesync-logo{width:180px;height:auto;object-fit:contain;margin:0 0 18px}.slidesync-drawer .slidesync-subtitle{font-size:12px;line-height:1.7;color:#777383;margin-bottom:24px}.slidesync-drawer .slidesync-code-container{border:1px solid #e8e5ef;border-radius:14px;background:#f6f4fc;padding:18px 12px}.slidesync-drawer .slidesync-code-label{font-size:11px;color:#777383}.slidesync-drawer .slidesync-code-value{font-size:29px;letter-spacing:4px;color:#6750e8}.slidesync-drawer .slidesync-status{font-size:11px;color:#777383;margin:0 0 18px}.slidesync-drawer button{border-radius:9px;border-color:#e8e5ef;color:#242134;font-family:inherit;font-size:13px;opacity:1}.slidesync-drawer button:hover{background:#f6f4fc}.slidesync-drawer button[primary]{background:#6750e8;border-color:#6750e8;color:white}.slidesync-drawer button[primary]:hover{background:#5039cc}.slidesync-drawer button.danger{background:#fff5f5;border-color:#f1dddd;color:#b44949}.slidesync-drawer button.danger:hover{background:#ffe8e8}.slidesync-drawer .slidesync-segmented{border-color:#e8e5ef;background:#f6f4fc}.slidesync-drawer .slidesync-footer{font-size:11px}.slidesync-drawer button:focus-visible,#slidesync-present-btn:focus-visible{outline:3px solid #a998ff;outline-offset:3px}
 
 .slidesync-drawer button{margin-top:0}
+
+/* The toggle disc sits behind the opaque drawer surface. Its exposed
+   crescent remains clickable when the drawer is open or closed. */
+.slidesync-drawer .slidesync-toggle-btn { z-index: 0; }
+.slidesync-drawer .slidesync-drawer-content { z-index: 1; background: #fff; }

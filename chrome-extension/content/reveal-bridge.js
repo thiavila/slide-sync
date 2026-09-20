@@ -444,7 +444,8 @@
               ${msg("sponsorMessage")}
               <a href="https://github.com/sponsors/thiavila" target="_blank">&#9829; ${msg("sponsorCta")}</a>
             </div>
-            <div class="slidesync-version">slidesync v2.7 · Reveal mode</div>
+            <div class="slidesync-credits">${msg("createdBy")} Thiago Avila · <a href="https://avila.ventures" target="_blank" rel="noopener noreferrer">Avila Ventures</a></div>
+            <div class="slidesync-version">slidesync v2.7.1 · Reveal mode</div>
           </div>
         </div>
       </div>

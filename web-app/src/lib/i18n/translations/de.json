@@ -1,7 +1,6 @@
 {
   "home.subtitle": "Folgen Sie Präsentationen in Echtzeit",
   "home.joinButton": "Präsentation beitreten",
-  "home.inspiredBy": "Inspiriert von",
   "home.sponsorMessage": "slidesync zu betreiben kostet etwa 10 $/Monat. Wenn es Ihnen bei Ihren Präsentationen geholfen hat, bedeutet eine kleine Unterstützung sehr viel.",
   "home.sponsorCta": "Unterstützen",
   "home.installExtension": "Erweiterung installieren",
@@ -93,5 +92,6 @@
   "join.codeLabel": "Raumcode",
   "join.submit": "Raum beitreten",
   "present.newTitle": "Deine nächste Folie beginnt hier.",
-  "home.navHow": "So funktioniert’s"
+  "home.navHow": "So funktioniert’s",
+  "home.createdBy": "Entwickelt von"
 }

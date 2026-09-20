@@ -1,7 +1,6 @@
 {
   "home.subtitle": "Suivez les présentations en temps réel",
   "home.joinButton": "Rejoindre la présentation",
-  "home.inspiredBy": "Inspiré par",
   "home.sponsorMessage": "Faire tourner slidesync coûte environ 10 $/mois. Si cet outil vous a été utile dans vos présentations, une petite contribution fait toute la différence.",
   "home.sponsorCta": "Devenir sponsor",
   "home.installExtension": "Installer l'extension",
@@ -93,5 +92,6 @@
   "join.codeLabel": "Code de la salle",
   "join.submit": "Rejoindre la salle",
   "present.newTitle": "Votre prochaine diapositive commence ici.",
-  "home.navHow": "Comment ça marche"
+  "home.navHow": "Comment ça marche",
+  "home.createdBy": "Créé par"
 }

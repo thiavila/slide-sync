@@ -1,7 +1,6 @@
 {
   "home.subtitle": "Sigue las presentaciones en tiempo real",
   "home.joinButton": "Entrar a la presentación",
-  "home.inspiredBy": "Inspirado por",
   "home.sponsorMessage": "Mantener slidesync cuesta unos $10/mes. Si te ha sido útil en tus presentaciones, una pequeña contribución significa muchísimo.",
   "home.sponsorCta": "Patrocinar",
   "home.installExtension": "Instalar extensión",
@@ -93,5 +92,6 @@
   "join.codeLabel": "Código de la sala",
   "join.submit": "Entrar en la sala",
   "present.newTitle": "Tu próxima diapositiva empieza aquí.",
-  "home.navHow": "Cómo funciona"
+  "home.navHow": "Cómo funciona",
+  "home.createdBy": "Creado por"
 }

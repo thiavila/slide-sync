@@ -41,9 +41,6 @@
   "presentButtonAria": {
     "message": "使用 slidesync 进行演示"
   },
-  "inspiredBy": {
-    "message": "灵感来自"
-  },
   "sponsorMessage": {
     "message": "运营 slidesync 每月大约需要10美元。如果它对您的演示有帮助，一点小小的贡献对我意义重大。"
   },
@@ -97,5 +94,8 @@
   },
   "copyFailed": {
     "message": "无法复制。请手动选择代码。"
+  },
+  "createdBy": {
+    "message": "创作者"
   }
 }

@@ -1,7 +1,6 @@
 {
   "home.subtitle": "プレゼンテーションをリアルタイムで閲覧",
   "home.joinButton": "プレゼンに参加",
-  "home.inspiredBy": "インスピレーション",
   "home.sponsorMessage": "slidesync の運営には月約10ドルかかります。プレゼンテーションで役立っていたら、少しのご支援がとても励みになります。",
   "home.sponsorCta": "スポンサーになる",
   "home.installExtension": "拡張機能をインストール",
@@ -93,5 +92,6 @@
   "join.codeLabel": "ルームコード",
   "join.submit": "ルームに参加",
   "present.newTitle": "次のスライドはここから。",
-  "home.navHow": "使い方"
+  "home.navHow": "使い方",
+  "home.createdBy": "制作"
 }

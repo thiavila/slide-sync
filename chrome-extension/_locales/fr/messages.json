@@ -41,9 +41,6 @@
   "presentButtonAria": {
     "message": "Présenter avec slidesync"
   },
-  "inspiredBy": {
-    "message": "Inspiré par"
-  },
   "sponsorMessage": {
     "message": "Faire tourner slidesync coûte environ 10 $$/mois. Si cet outil vous a été utile dans vos présentations, une petite contribution fait toute la différence."
   },
@@ -97,5 +94,8 @@
   },
   "copyFailed": {
     "message": "Copie impossible. Sélectionnez le code manuellement."
+  },
+  "createdBy": {
+    "message": "Créé par"
   }
 }

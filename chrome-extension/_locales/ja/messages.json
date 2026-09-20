@@ -41,9 +41,6 @@
   "presentButtonAria": {
     "message": "slidesync でプレゼンテーション"
   },
-  "inspiredBy": {
-    "message": "インスパイア元"
-  },
   "sponsorMessage": {
     "message": "slidesync の運営には月約10ドルかかります。プレゼンテーションで役立っていたら、少しのご支援がとても励みになります。"
   },
@@ -97,5 +94,8 @@
   },
   "copyFailed": {
     "message": "コピーできませんでした。コードを手動で選択してください。"
+  },
+  "createdBy": {
+    "message": "制作"
   }
 }

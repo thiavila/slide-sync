@@ -1,7 +1,6 @@
 {
   "home.subtitle": "Follow presentations in real-time",
   "home.joinButton": "Join presentation",
-  "home.inspiredBy": "Inspired by",
   "home.sponsorMessage": "Running slidesync costs about $10/month. If it's been helpful in your presentations, a small contribution means the world.",
   "home.sponsorCta": "Become a sponsor",
   "home.installExtension": "Install Extension",
@@ -93,5 +92,6 @@
   "join.codeLabel": "Room code",
   "join.submit": "Join room",
   "present.newTitle": "Your next slide starts here.",
-  "home.navHow": "How it works"
+  "home.navHow": "How it works",
+  "home.createdBy": "Created by"
 }

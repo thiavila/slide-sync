@@ -4,6 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "slidesync",
+  icons: { icon: "/brand/icon-2b5e6ea46b4f.png", apple: "/brand/icon-2b5e6ea46b4f.png" },
   description: "Share your presentations in real-time with your audience",
 };
 

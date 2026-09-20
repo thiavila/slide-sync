@@ -50,7 +50,7 @@ export default function Home() {
               <span>slidesync.live</span>
             </div>
             <div className="demo-top">
-              <img src="/logo.png" alt="" />
+              <img src="/brand/logo-e01e8a6ca574.png" alt="" />
               <span className="live-pill">● {t("session.live")}</span>
             </div>
             <div className="demo-slide">
@@ -126,10 +126,8 @@ export default function Home() {
         </nav>
         <p>{t("home.sponsorMessage")}</p>
         <p>
-          {t("home.inspiredBy")}{" "}
-          <a href="https://limhenry.xyz/slides/">
-            Remote for Slides · Henry Lim
-          </a>
+          {t("home.createdBy")}{" "}
+          Thiago Avila · <a href="https://avila.ventures">Avila Ventures</a>
         </p>
       </footer>
     </main>

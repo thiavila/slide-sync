@@ -1,7 +1,6 @@
 {
   "home.subtitle": "实时跟随演示文稿",
   "home.joinButton": "加入演示",
-  "home.inspiredBy": "灵感来自",
   "home.sponsorMessage": "运营 slidesync 每月大约需要10美元。如果它对您的演示有帮助，一点小小的贡献对我意义重大。",
   "home.sponsorCta": "成为赞助者",
   "home.installExtension": "安装扩展",
@@ -93,5 +92,6 @@
   "join.codeLabel": "房间代码",
   "join.submit": "加入房间",
   "present.newTitle": "你的下一张幻灯片，从这里开始。",
-  "home.navHow": "使用方法"
+  "home.navHow": "使用方法",
+  "home.createdBy": "创作者"
 }
