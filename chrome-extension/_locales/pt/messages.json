@@ -1,31 +1,101 @@
 {
-  "extName": { "message": "slidesync" },
-  "extDescription": { "message": "Compartilhe suas apresentações em tempo real com sua audiência" },
-  "noActiveSession": { "message": "Sem sessao ativa" },
-  "openPresentationHint": { "message": "Abra uma apresentacao no Google Slides para comecar." },
-  "activeSession": { "message": "Sessao ativa" },
-  "roomCodeLabel": { "message": "Codigo da sala" },
-  "currentSlideLabel": { "message": "Slide atual" },
-  "drawerSubtitle": { "message": "Compartilhe seus slides em tempo real" },
-  "statusDisconnected": { "message": "Desconectado" },
-  "statusActive": { "message": "Ativo" },
-  "startSession": { "message": "Iniciar sessao" },
-  "stopSession": { "message": "Encerrar sessao" },
-  "presentButton": { "message": "Apresentar c/ slidesync" },
-  "presentButtonAria": { "message": "Apresentar com slidesync" },
-  "inspiredBy": { "message": "Inspirado por" },
-  "sponsorMessage": { "message": "Manter o slidesync custa cerca de $$10/mês. Se ele tem sido útil nas suas apresentações, qualquer contribuição faz toda a diferença." },
-  "sponsorCta": { "message": "Seja um patrocinador" },
-  "qrCodeLabel": { "message": "QR code" },
-  "qrColorOff": { "message": "Desligado" },
-  "qrCodeOn": { "message": "Ativo" },
-  "qrWarning": { "message": "Pode deixar uma leve marca nos slides." },
-  "qrColorBlack": { "message": "Preto" },
-  "qrColorWhite": { "message": "Branco" },
-  "qrPositionLabel": { "message": "Posicao" },
-  "qrPositionTopLeft": { "message": "Sup. esquerda" },
-  "qrPositionTopRight": { "message": "Sup. direita" },
-  "qrPositionBottomLeft": { "message": "Inf. esquerda" },
-  "qrPositionBottomRight": { "message": "Inf. direita" },
-  "qrAdvanced": { "message": "Posição avançada" }
+  "extName": {
+    "message": "slidesync"
+  },
+  "extDescription": {
+    "message": "Compartilhe suas apresentações em tempo real com sua audiência"
+  },
+  "noActiveSession": {
+    "message": "Nenhuma sessão ativa"
+  },
+  "openPresentationHint": {
+    "message": "Abra uma apresentacao no Google Slides para comecar."
+  },
+  "activeSession": {
+    "message": "Sessão ativa"
+  },
+  "roomCodeLabel": {
+    "message": "Código da sala"
+  },
+  "currentSlideLabel": {
+    "message": "Slide atual"
+  },
+  "drawerSubtitle": {
+    "message": "Compartilhe seus slides em tempo real"
+  },
+  "statusDisconnected": {
+    "message": "Desconectado"
+  },
+  "statusActive": {
+    "message": "Ativo"
+  },
+  "startSession": {
+    "message": "Iniciar sessao"
+  },
+  "stopSession": {
+    "message": "Encerrar sessao"
+  },
+  "presentButton": {
+    "message": "Apresentar c/ slidesync"
+  },
+  "presentButtonAria": {
+    "message": "Apresentar com slidesync"
+  },
+  "inspiredBy": {
+    "message": "Inspirado por"
+  },
+  "sponsorMessage": {
+    "message": "Manter o slidesync custa cerca de $$10/mês. Se ele tem sido útil nas suas apresentações, qualquer contribuição faz toda a diferença."
+  },
+  "sponsorCta": {
+    "message": "Seja um patrocinador"
+  },
+  "qrCodeLabel": {
+    "message": "QR code"
+  },
+  "qrColorOff": {
+    "message": "Desligado"
+  },
+  "qrCodeOn": {
+    "message": "Ativo"
+  },
+  "qrWarning": {
+    "message": "Pode deixar uma leve marca nos slides."
+  },
+  "qrColorBlack": {
+    "message": "Preto"
+  },
+  "qrColorWhite": {
+    "message": "Branco"
+  },
+  "qrPositionLabel": {
+    "message": "Posicao"
+  },
+  "qrPositionTopLeft": {
+    "message": "Sup. esquerda"
+  },
+  "qrPositionTopRight": {
+    "message": "Sup. direita"
+  },
+  "qrPositionBottomLeft": {
+    "message": "Inf. esquerda"
+  },
+  "qrPositionBottomRight": {
+    "message": "Inf. direita"
+  },
+  "qrAdvanced": {
+    "message": "Posição avançada"
+  },
+  "copyCode": {
+    "message": "Copiar código"
+  },
+  "codeCopied": {
+    "message": "Copiado"
+  },
+  "openWebsite": {
+    "message": "Ir para o site"
+  },
+  "copyFailed": {
+    "message": "Não foi possível copiar. Selecione o código manualmente."
+  }
 }

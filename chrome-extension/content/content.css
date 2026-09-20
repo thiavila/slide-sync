@@ -142,7 +142,7 @@
 .slidesync-drawer .slidesync-code-value {
   margin-top: 4px;
   font-size: 32px;
-  color: #33AEFE;
+  color: #6750E8;
   font-weight: 600;
   letter-spacing: 6px;
 }
@@ -192,14 +192,14 @@
 }
 
 .slidesync-drawer button[primary] {
-  background-color: #33AEFE;
-  border-color: #33AEFE;
+  background-color: #6750E8;
+  border-color: #6750E8;
   color: #fff;
   font-weight: 600;
 }
 
 .slidesync-drawer button[primary]:hover {
-  background-color: #0D95EC;
+  background-color: #5039CC;
 }
 
 .slidesync-drawer button.danger {
@@ -226,7 +226,7 @@
 }
 
 .slidesync-drawer .slidesync-credits a {
-  color: #33AEFE;
+  color: #6750E8;
   text-decoration: none;
 }
 
@@ -247,7 +247,7 @@
 }
 
 .slidesync-drawer .slidesync-sponsor a {
-  color: #33AEFE;
+  color: #6750E8;
   text-decoration: none;
 }
 
@@ -280,7 +280,7 @@
 .slidesync-drawer .slidesync-url {
   text-align: center;
   font-size: 11px;
-  color: #33AEFE;
+  color: #6750E8;
   word-break: break-all;
   margin-bottom: 4px;
 }
@@ -501,7 +501,7 @@
   opacity: 1;
 }
 .slidesync-drawer .slidesync-adv-toggle:hover { background: rgba(0, 0, 0, 0.04); color: #333; }
-.slidesync-drawer .slidesync-adv-toggle.active { color: #0D95EC; }
+.slidesync-drawer .slidesync-adv-toggle.active { color: #5039CC; }
 .slidesync-drawer .slidesync-adv-caret {
   font-size: 9px;
   display: inline-block;
@@ -573,7 +573,13 @@
 }
 .slidesync-drawer .slidesync-adv-field input[type="number"]:focus {
   outline: none;
-  border-color: #33AEFE;
+  border-color: #6750E8;
   box-shadow: 0 0 0 2px rgba(51, 174, 254, 0.18);
 }
 .slidesync-drawer .slidesync-adv-unit { font-size: 12px; color: #999; }
+/* SlideSync design system — scoped to extension UI only. */
+#slidesync-present-btn{background:#efebff;color:#5039cc;border:1px solid #e2dbfa!important;border-radius:9px;font-weight:600}#slidesync-present-btn:hover{background:#e2dbff}
+.slidesync-drawer-container{font-family:'Avenir Next',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.slidesync-drawer{background:#fff;color:#242134;border-left:1px solid #e8e5ef}.slidesync-drawer .slidesync-toggle-btn{background:#f6f4fc}.slidesync-drawer .slidesync-drawer-content{padding:24px;align-items:stretch}.slidesync-drawer .slidesync-logo{width:180px;height:auto;object-fit:contain;margin:0 0 18px}.slidesync-drawer .slidesync-subtitle{font-size:12px;line-height:1.7;color:#777383;margin-bottom:24px}.slidesync-drawer .slidesync-code-container{border:1px solid #e8e5ef;border-radius:14px;background:#f6f4fc;padding:18px 12px}.slidesync-drawer .slidesync-code-label{font-size:11px;color:#777383}.slidesync-drawer .slidesync-code-value{font-size:29px;letter-spacing:4px;color:#6750e8}.slidesync-drawer .slidesync-status{font-size:11px;color:#777383;margin:0 0 18px}.slidesync-drawer button{border-radius:9px;border-color:#e8e5ef;color:#242134;font-family:inherit;font-size:13px;opacity:1}.slidesync-drawer button:hover{background:#f6f4fc}.slidesync-drawer button[primary]{background:#6750e8;border-color:#6750e8;color:white}.slidesync-drawer button[primary]:hover{background:#5039cc}.slidesync-drawer button.danger{background:#fff5f5;border-color:#f1dddd;color:#b44949}.slidesync-drawer button.danger:hover{background:#ffe8e8}.slidesync-drawer .slidesync-segmented{border-color:#e8e5ef;background:#f6f4fc}.slidesync-drawer .slidesync-footer{font-size:11px}.slidesync-drawer button:focus-visible,#slidesync-present-btn:focus-visible{outline:3px solid #a998ff;outline-offset:3px}
+
+.slidesync-drawer button{margin-top:0}

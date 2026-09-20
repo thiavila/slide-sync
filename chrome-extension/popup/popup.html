@@ -6,7 +6,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>slidesync</h1>
+    <h1><img class="brand-logo" src="../icons/logo.png" alt="slidesync" /></h1>
 
     <div id="inactive-view">
       <div class="status disconnected">
@@ -24,6 +24,8 @@
       <div class="room-code">
         <div class="label" id="room-code-label"></div>
         <div class="code" id="roomCode">------</div>
+        <button id="copy-code" type="button"></button>
+        <span id="copy-status" role="status"></span>
       </div>
       <div class="info-row">
         <span class="label" id="current-slide-label"></span>
@@ -31,6 +33,7 @@
       </div>
     </div>
   </div>
+  <footer class="popup-footer"><span>slidesync</span><a id="open-website" href="https://slidesync.live" target="_blank" rel="noopener noreferrer"></a></footer>
   <script src="popup.js"></script>
 </body>
 </html>

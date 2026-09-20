@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import RoomCodeInput from "@/components/room-code-input";
 import Link from "next/link";
+import Brand from "@/components/brand";
 import { useTranslations } from "@/lib/i18n/use-translations";
 
 export default function JoinPage() {
@@ -19,20 +20,29 @@ export default function JoinPage() {
   }
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-4">
-      <div className="max-w-md w-full text-center space-y-8">
-        <div>
-          <h1 className="text-2xl font-bold text-gray-900">{t("join.title")}</h1>
-          <p className="mt-2 text-gray-600">
-            {t("join.subtitle")}
-          </p>
-        </div>
-
-        <RoomCodeInput onSubmit={handleSubmit} loading={loading} error={error} />
-
-        <Link href="/" className="text-sm text-gray-500 hover:text-gray-700">
-          {t("join.back")}
+    <main className="brand-page join-page">
+      <header className="site-nav">
+        <Brand />
+        <Link className="back-link" href="/">
+          ← {t("session.backHome")}
         </Link>
+      </header>
+      <div className="join-layout">
+        <section className="join-story">
+          <span className="eyebrow">{t("home.eyebrow")}</span>
+          <h1>{t("join.headline")}</h1>
+          <p>{t("join.body")}</p>
+        </section>
+        <section className="join-card">
+          <span className="ds-tag">{t("home.featureNoLogin")}</span>
+          <h2>{t("join.title")}</h2>
+          <p>{t("join.subtitle")}</p>
+          <RoomCodeInput
+            onSubmit={handleSubmit}
+            loading={loading}
+            error={error}
+          />
+        </section>
       </div>
     </main>
   );

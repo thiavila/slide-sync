@@ -81,5 +81,17 @@
   "present.extensionRequired": "Extensión necesaria",
   "present.extensionRequiredBody": "El modo Reveal usa la extensión slidesync de Chrome para capturar las diapositivas en calidad nativa. Instálala para empezar a presentar.",
   "present.installExtension": "Instalar extensión",
-  "present.alreadyInstalled": "¿Ya está instalada? Recargar."
+  "present.alreadyInstalled": "¿Ya está instalada? Recargar.",
+  "home.eyebrow": "Hecho para compartir conocimiento",
+  "home.headline": "Tu presentación.",
+  "home.headlineAccent": "En manos de todos.",
+  "home.heroBody": "Comparte tus diapositivas en directo. Cada persona sigue la presentación, toma notas y se lleva lo aprendido.",
+  "home.upload": "Subir presentación",
+  "home.formats": "Presentaciones Reveal.js en HTML (.html o .htm)",
+  "join.headline": "Una sala. Muchas buenas ideas.",
+  "join.body": "La siguiente diapositiva llega a ti. Entra, sigue la presentación y toma notas.",
+  "join.codeLabel": "Código de la sala",
+  "join.submit": "Entrar en la sala",
+  "present.newTitle": "Tu próxima diapositiva empieza aquí.",
+  "home.navHow": "Cómo funciona"
 }

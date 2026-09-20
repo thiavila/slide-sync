@@ -1,77 +1,46 @@
 "use client";
-
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { useTranslations } from "@/lib/i18n/use-translations";
-
-interface RoomCodeInputProps {
+interface Props {
   onSubmit: (code: string) => void;
   loading?: boolean;
   error?: string | null;
 }
-
-export default function RoomCodeInput({
-  onSubmit,
-  loading,
-  error,
-}: RoomCodeInputProps) {
+export default function RoomCodeInput({ onSubmit, loading, error }: Props) {
   const { t } = useTranslations();
-  const [digits, setDigits] = useState(["", "", "", "", "", ""]);
-  const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
-
-  function handleChange(index: number, value: string) {
-    if (!/^\d*$/.test(value)) return;
-
-    const newDigits = [...digits];
-    newDigits[index] = value.slice(-1);
-    setDigits(newDigits);
-
-    if (value && index < 5) {
-      inputRefs.current[index + 1]?.focus();
-    }
-
-    const code = newDigits.join("");
-    if (code.length === 6) {
-      onSubmit(code);
-    }
-  }
-
-  function handleKeyDown(index: number, e: React.KeyboardEvent) {
-    if (e.key === "Backspace" && !digits[index] && index > 0) {
-      inputRefs.current[index - 1]?.focus();
-    }
-  }
-
-  function handlePaste(e: React.ClipboardEvent) {
-    e.preventDefault();
-    const pasted = e.clipboardData.getData("text").replace(/\D/g, "").slice(0, 6);
-    if (pasted.length === 6) {
-      setDigits(pasted.split(""));
-      onSubmit(pasted);
-    }
-  }
-
+  const [code, setCode] = useState("");
   return (
-    <div className="space-y-4">
-      <div className="flex gap-2 justify-center" onPaste={handlePaste}>
-        {digits.map((digit, i) => (
-          <input
-            key={i}
-            ref={(el) => { inputRefs.current[i] = el; }}
-            type="text"
-            inputMode="numeric"
-            maxLength={1}
-            value={digit}
-            onChange={(e) => handleChange(i, e.target.value)}
-            onKeyDown={(e) => handleKeyDown(i, e)}
-            disabled={loading}
-            className="w-12 h-14 text-center text-2xl font-mono text-gray-900 border-2 border-gray-300 rounded-lg focus:border-brand focus:outline-none disabled:opacity-50"
-          />
-        ))}
-      </div>
-      {error && <p className="text-red-500 text-sm text-center">{error}</p>}
-      {loading && (
-        <p className="text-gray-500 text-sm text-center">{t("join.entering")}</p>
+    <form
+      className="code-form"
+      onSubmit={(e) => {
+        e.preventDefault();
+        if (/^\d{6}$/.test(code) && !loading) onSubmit(code);
+      }}
+    >
+      <label htmlFor="room-code">{t("join.codeLabel")}</label>
+      <input
+        id="room-code"
+        type="text"
+        inputMode="numeric"
+        autoComplete="one-time-code"
+        pattern="[0-9]{6}"
+        maxLength={6}
+        required
+        placeholder="000000"
+        value={code}
+        onChange={(e) => setCode(e.target.value.replace(/\D/g, "").slice(0, 6))}
+        disabled={loading}
+        aria-describedby={error ? "join-error" : undefined}
+      />
+      <button className="ds-button" disabled={loading} type="submit">
+        {loading ? t("join.entering") : t("join.submit")}{" "}
+        <span aria-hidden>→</span>
+      </button>
+      {error && (
+        <p id="join-error" role="alert">
+          {error}
+        </p>
       )}
-    </div>
+    </form>
   );
 }

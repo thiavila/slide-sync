@@ -41,3 +41,19 @@ chrome.storage.onChanged.addListener((changes) => {
     currentSlideEl.textContent = changes.currentSlide.newValue;
   }
 });
+
+// Presentation-only controls. Session transport remains unchanged.
+document.documentElement.lang = chrome.i18n.getUILanguage();
+const copyButton = document.getElementById("copy-code");
+copyButton.textContent = msg("copyCode");
+document.getElementById("open-website").textContent = msg("openWebsite") + " ↗";
+copyButton.addEventListener("click", async () => {
+  const code = roomCodeEl.textContent.trim();
+  if (!/^\d{6}$/.test(code)) return;
+  try {
+    await navigator.clipboard.writeText(code);
+    document.getElementById("copy-status").textContent = msg("codeCopied");
+  } catch {
+    document.getElementById("copy-status").textContent = msg("copyFailed");
+  }
+});

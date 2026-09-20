@@ -81,5 +81,17 @@
   "present.extensionRequired": "拡張機能が必要です",
   "present.extensionRequiredBody": "Reveal モードでは slidesync Chrome 拡張機能を使ってネイティブ品質でスライドをキャプチャします。インストールしてプレゼンを開始してください。",
   "present.installExtension": "拡張機能をインストール",
-  "present.alreadyInstalled": "インストール済みですか? 再読み込み。"
+  "present.alreadyInstalled": "インストール済みですか? 再読み込み。",
+  "home.eyebrow": "知識を共有するために",
+  "home.headline": "あなたのプレゼンを、",
+  "home.headlineAccent": "みんなの手元に。",
+  "home.heroBody": "スライドをリアルタイムで共有。参加者はスライドを見ながらメモを取り、学んだことを持ち帰れます。",
+  "home.upload": "プレゼンをアップロード",
+  "home.formats": "HTML形式のReveal.jsプレゼン（.htmlまたは.htm）",
+  "join.headline": "ひとつのルームに、たくさんのアイデア。",
+  "join.body": "次のスライドが手元に届きます。参加して、スライドを見ながらメモしましょう。",
+  "join.codeLabel": "ルームコード",
+  "join.submit": "ルームに参加",
+  "present.newTitle": "次のスライドはここから。",
+  "home.navHow": "使い方"
 }

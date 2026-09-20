@@ -1,13 +1,19 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
+import Brand from "@/components/brand";
 import RevealFrame from "@/components/reveal-frame";
 import { detectExtension } from "@/lib/reveal/extension-bridge";
-import { getDeckHtml, setDeckHtml, clearDeckHtml } from "@/lib/reveal/deck-store";
+import {
+  getDeckHtml,
+  setDeckHtml,
+  clearDeckHtml,
+} from "@/lib/reveal/deck-store";
 import { useTranslations } from "@/lib/i18n/use-translations";
 
 const CHROME_STORE_URL =
-  "https://chromewebstore.google.com/detail/slidesync-real-time-slide/eaiabbeapnegmnlomeijfkomdejgcjof";
+  "https://chromewebstore.google.com/detail/slidesync/onekdjipbccldnkdpnnjeobeeajbkkad";
 
 type ExtState =
   | { status: "checking" }
@@ -36,18 +42,24 @@ export default function PresentPage() {
       if (stored) setHtml(stored);
       setRestored(true);
     });
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   useEffect(() => {
     let cancelled = false;
     detectExtension().then((res) => {
       if (cancelled) return;
-      setExt(res.available
-        ? { status: "available", version: res.version }
-        : { status: "missing" });
+      setExt(
+        res.available
+          ? { status: "available", version: res.version }
+          : { status: "missing" },
+      );
     });
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   // Extension's "Stop session" tells us to wipe and return to upload view.
@@ -79,8 +91,12 @@ export default function PresentPage() {
   if (ext.status === "missing") {
     return (
       <main className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
-        <div className="max-w-lg w-full text-center space-y-6">
-          <h1 className="text-3xl font-bold text-gray-900">{t("present.extensionRequired")}</h1>
+        <div className="present-card">
+          <Brand />
+          <span className="ds-tag">Reveal.js</span>
+          <h1 className="text-3xl font-bold text-gray-900">
+            {t("present.extensionRequired")}
+          </h1>
           <p className="text-gray-600">{t("present.extensionRequiredBody")}</p>
           <a
             href={CHROME_STORE_URL}
@@ -121,7 +137,10 @@ export default function PresentPage() {
 
   return (
     <main className="fixed inset-0 bg-black overflow-hidden">
-      <RevealFrame html={html} className="absolute inset-0 w-full h-full border-0" />
+      <RevealFrame
+        html={html}
+        className="absolute inset-0 w-full h-full border-0"
+      />
     </main>
   );
 }
@@ -149,14 +168,18 @@ function UploadView({ onReady }: { onReady: (html: string) => void }) {
   }
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-4">
-      <div className="max-w-lg w-full text-center space-y-6">
+    <main className="brand-page present-page">
+      <div className="present-card">
+        <Brand />
+        <span className="ds-tag">Reveal.js</span>
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">{t("present.title")}</h1>
+          <h1 className="text-3xl font-bold text-gray-900">
+            {t("present.newTitle")}
+          </h1>
           <p className="mt-2 text-gray-600">{t("present.subtitle")}</p>
         </div>
 
-        <div className="rounded-xl border-2 border-dashed border-gray-300 bg-white p-8">
+        <div className="upload-card">
           <input
             ref={fileRef}
             type="file"
@@ -170,18 +193,24 @@ function UploadView({ onReady }: { onReady: (html: string) => void }) {
           <button
             onClick={() => fileRef.current?.click()}
             disabled={loading}
-            className="rounded-lg bg-brand px-6 py-3 text-white font-medium hover:bg-brand-dark transition disabled:opacity-50"
+            className="ds-button"
           >
             {loading ? t("present.loading") : t("present.chooseFile")}
           </button>
-          <p className="mt-4 text-sm text-gray-500">{t("present.captureNote")}</p>
+          <p className="mt-4 text-sm text-gray-500">{t("home.formats")}</p>
+          <p className="mt-4 text-sm text-gray-500">
+            {t("present.captureNote")}
+          </p>
         </div>
 
         {error && <p className="text-red-500 text-sm">{error}</p>}
 
-        <a href="/" className="block text-sm text-gray-500 hover:text-gray-700">
+        <Link
+          href="/"
+          className="block text-sm text-gray-500 hover:text-gray-700"
+        >
           ← {t("session.backHome")}
-        </a>
+        </Link>
       </div>
     </main>
   );

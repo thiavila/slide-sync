@@ -81,5 +81,17 @@
   "present.extensionRequired": "需要扩展",
   "present.extensionRequiredBody": "Reveal 模式使用 slidesync Chrome 扩展以原生质量捕获幻灯片。请先安装以开始演示。",
   "present.installExtension": "安装扩展",
-  "present.alreadyInstalled": "已经安装? 重新加载。"
+  "present.alreadyInstalled": "已经安装? 重新加载。",
+  "home.eyebrow": "为知识分享而生",
+  "home.headline": "你的演示，",
+  "home.headlineAccent": "就在每个人手中。",
+  "home.heroBody": "实时分享幻灯片。每个人都能跟随演示、记录笔记，并保存所学内容。",
+  "home.upload": "上传演示文稿",
+  "home.formats": "HTML 格式的 Reveal.js 演示（.html 或 .htm）",
+  "join.headline": "一个房间，无数好点子。",
+  "join.body": "下一张幻灯片会自动送达。加入房间，跟随演示并记笔记。",
+  "join.codeLabel": "房间代码",
+  "join.submit": "加入房间",
+  "present.newTitle": "你的下一张幻灯片，从这里开始。",
+  "home.navHow": "使用方法"
 }

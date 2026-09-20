@@ -81,5 +81,17 @@
   "present.extensionRequired": "Erweiterung erforderlich",
   "present.extensionRequiredBody": "Der Reveal-Modus verwendet die slidesync Chrome-Erweiterung, um Folien in nativer Qualität aufzunehmen. Installieren Sie sie, um zu beginnen.",
   "present.installExtension": "Erweiterung installieren",
-  "present.alreadyInstalled": "Bereits installiert? Neu laden."
+  "present.alreadyInstalled": "Bereits installiert? Neu laden.",
+  "home.eyebrow": "Wissen gemeinsam teilen",
+  "home.headline": "Deine Präsentation.",
+  "home.headlineAccent": "In aller Händen.",
+  "home.heroBody": "Teile deine Folien live. Alle können mitlesen, Notizen machen und das Gelernte mitnehmen.",
+  "home.upload": "Präsentation hochladen",
+  "home.formats": "Reveal.js-Präsentationen als HTML (.html oder .htm)",
+  "join.headline": "Ein Raum. Viele gute Ideen.",
+  "join.body": "Die nächste Folie kommt zu dir. Tritt bei, verfolge die Präsentation und mache Notizen.",
+  "join.codeLabel": "Raumcode",
+  "join.submit": "Raum beitreten",
+  "present.newTitle": "Deine nächste Folie beginnt hier.",
+  "home.navHow": "So funktioniert’s"
 }

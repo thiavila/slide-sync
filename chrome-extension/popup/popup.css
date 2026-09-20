@@ -84,7 +84,7 @@ h1 {
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 6px;
-  color: #33AEFE;
+  color: #6750E8;
 }
 
 .info-row {
@@ -107,3 +107,7 @@ h1 {
 .hidden {
   display: none;
 }
+/* SlideSync design system — 2026 */
+body{width:320px;color:#242134;font-family:'Avenir Next',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.container{padding:24px}.brand-logo{width:170px;height:auto;display:block}h1{margin-bottom:25px}.status{border-radius:100px;padding:7px 10px;font-size:11px;width:fit-content}.status.connected{background:#eff9f3;color:#257456}.status.disconnected{background:#f6f4fc;color:#777383}.hint{font-size:13px;line-height:1.8;color:#777383}.room-code{background:#f6f4fc;border:1px solid #e8e5ef;border-radius:14px;padding:25px 14px}.room-code .label{text-transform:none;font-size:11px;color:#777383}.room-code .code{color:#6750e8;font-size:30px;font-weight:600;letter-spacing:5px;margin-top:12px}.info-row{font-size:12px}.info-row .label{color:#777383}
+
+#copy-code{border:0;background:white;color:#5039cc;border-radius:8px;padding:8px 14px;font:inherit;font-size:11px;margin-top:12px;cursor:pointer}#copy-code:hover{background:#efebff}#copy-code:focus-visible,a:focus-visible{outline:3px solid #a998ff;outline-offset:3px}#copy-status{font-size:11px;color:#777383;display:block;margin-top:7px}.popup-footer{border-top:1px solid #e8e5ef;display:flex;justify-content:space-between;padding:15px 24px;font-size:10px;color:#777383}.popup-footer a{color:#5039cc;text-decoration:none}

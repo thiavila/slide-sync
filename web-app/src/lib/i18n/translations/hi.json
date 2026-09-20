@@ -81,5 +81,17 @@
   "present.extensionRequired": "एक्सटेंशन आवश्यक है",
   "present.extensionRequiredBody": "Reveal मोड slidesync Chrome एक्सटेंशन का उपयोग नेटिव क्वालिटी में स्लाइड कैप्चर करने के लिए करता है। प्रेजेंट करना शुरू करने के लिए इसे इंस्टॉल करें।",
   "present.installExtension": "एक्सटेंशन इंस्टॉल करें",
-  "present.alreadyInstalled": "पहले से इंस्टॉल है? रीलोड करें।"
+  "present.alreadyInstalled": "पहले से इंस्टॉल है? रीलोड करें।",
+  "home.eyebrow": "ज्ञान साझा करने के लिए",
+  "home.headline": "आपकी प्रस्तुति।",
+  "home.headlineAccent": "सबके हाथों में।",
+  "home.heroBody": "अपनी स्लाइड लाइव साझा करें। सभी लोग साथ देख सकते हैं, नोट्स बना सकते हैं और सीखी गई बातें सहेज सकते हैं।",
+  "home.upload": "प्रस्तुति अपलोड करें",
+  "home.formats": "HTML में Reveal.js प्रस्तुतियाँ (.html या .htm)",
+  "join.headline": "एक कमरा। ढेर सारे अच्छे विचार।",
+  "join.body": "अगली स्लाइड आपके पास आती है। जुड़ें, साथ देखें और नोट्स बनाएँ।",
+  "join.codeLabel": "कमरे का कोड",
+  "join.submit": "कमरे में जुड़ें",
+  "present.newTitle": "आपकी अगली स्लाइड यहाँ से शुरू होती है।",
+  "home.navHow": "यह कैसे काम करता है"
 }

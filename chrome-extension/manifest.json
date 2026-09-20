@@ -1,11 +1,16 @@
 {
   "manifest_version": 3,
   "name": "__MSG_extName__",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
-  "permissions": ["activeTab", "storage"],
-  "host_permissions": ["<all_urls>"],
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
   "background": {
     "service_worker": "background/background.js"
   },
@@ -14,8 +19,13 @@
       "matches": [
         "*://docs.google.com/presentation/*"
       ],
-      "js": ["content/qrcode.min.js", "content/content.js"],
-      "css": ["content/content.css"],
+      "js": [
+        "content/qrcode.min.js",
+        "content/content.js"
+      ],
+      "css": [
+        "content/content.css"
+      ],
       "run_at": "document_idle"
     },
     {
@@ -24,8 +34,13 @@
         "http://localhost:3000/present/*",
         "http://localhost:3030/present/*"
       ],
-      "js": ["content/qrcode.min.js", "content/reveal-bridge.js"],
-      "css": ["content/content.css"],
+      "js": [
+        "content/qrcode.min.js",
+        "content/reveal-bridge.js"
+      ],
+      "css": [
+        "content/content.css"
+      ],
       "run_at": "document_idle"
     }
   ],
@@ -44,7 +59,10 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["icons/icon128.png"],
+      "resources": [
+        "icons/icon128.png",
+        "icons/logo.png"
+      ],
       "matches": [
         "*://docs.google.com/*",
         "https://slidesync.live/*",

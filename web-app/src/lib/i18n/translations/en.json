@@ -31,7 +31,7 @@
   "session.connectionError": "Connection error. Room may not exist.",
   "session.backHome": "Back to home",
   "session.connecting": "Connecting...",
-  "session.slideInfo": "Slide {{current}} \u00b7 Room {{room}}",
+  "session.slideInfo": "Slide {{current}} · Room {{room}}",
   "session.live": "Live",
   "viewer.waiting": "Waiting for the presenter to start the presentation...",
   "viewer.annotateSlides": "Annotate slides",
@@ -81,5 +81,17 @@
   "present.extensionRequired": "Extension required",
   "present.extensionRequiredBody": "Reveal mode uses the slidesync Chrome extension to capture slides at native quality. Install it to start presenting.",
   "present.installExtension": "Install extension",
-  "present.alreadyInstalled": "Already installed? Reload."
+  "present.alreadyInstalled": "Already installed? Reload.",
+  "home.eyebrow": "Made for sharing knowledge",
+  "home.headline": "Your presentation.",
+  "home.headlineAccent": "In everyone’s hands.",
+  "home.heroBody": "Share your slides live. Everyone can follow along, take notes, and keep what they learn.",
+  "home.upload": "Upload presentation",
+  "home.formats": "Reveal.js presentations in HTML (.html or .htm)",
+  "join.headline": "One room. So many good ideas.",
+  "join.body": "The next slide comes to you. Join, follow along, and take notes.",
+  "join.codeLabel": "Room code",
+  "join.submit": "Join room",
+  "present.newTitle": "Your next slide starts here.",
+  "home.navHow": "How it works"
 }
