@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/verify-deploy.mjs",
+    "verify:deploy": "node scripts/verify-deploy.mjs",
     "start": "next start",
     "lint": "eslint"
   },
