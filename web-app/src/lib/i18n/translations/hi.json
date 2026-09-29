@@ -93,5 +93,9 @@
   "join.submit": "कमरे में जुड़ें",
   "present.newTitle": "आपकी अगली स्लाइड यहाँ से शुरू होती है।",
   "home.navHow": "यह कैसे काम करता है",
-  "home.createdBy": "निर्माता"
+  "home.createdBy": "निर्माता",
+  "home.videoTitle": "Slidesync को काम करते हुए देखें",
+  "home.videoPlay": "देखें यह कैसे काम करता है",
+  "home.videoAlt": "प्रस्तुतकर्ता दर्शकों के साथ स्लाइड साझा करते हुए",
+  "home.videoCaption": "सत्र शुरू करें। QR कोड साझा करें। सभी को साथ जोड़ें।"
 }

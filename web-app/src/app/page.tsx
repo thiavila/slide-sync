@@ -1,11 +1,13 @@
 "use client";
 import Link from "next/link";
+import { useState } from "react";
 import Brand from "@/components/brand";
 import { useTranslations } from "@/lib/i18n/use-translations";
 const STORE =
   "https://chromewebstore.google.com/detail/slidesync/onekdjipbccldnkdpnnjeobeeajbkkad";
 export default function Home() {
   const { t } = useTranslations();
+  const [playing, setPlaying] = useState(false);
   return (
     <main className="brand-page">
       <header className="site-nav">
@@ -43,53 +45,23 @@ export default function Home() {
         </div>
         <p className="formats">{t("home.formats")}</p>
         <p className="hero-note">✓ {t("home.openSource")}</p>
-        <div className="showcase" aria-hidden="true">
-          <div className="demo-browser">
-            <div className="demo-bar">
-              <span>● ● ●</span>
-              <span>slidesync.live</span>
-            </div>
-            <div className="demo-top">
-              <img src="/brand/logo-e01e8a6ca574.png" alt="" />
-              <span className="live-pill">● {t("session.live")}</span>
-            </div>
-            <div className="demo-slide">
-              <small>SLIDESYNC / 2026</small>
-              <h2>
-                {t("home.headline")}
-                <br />
-                {t("home.headlineAccent")}
-              </h2>
-              <div className="demo-geometry">
-                <i />
-                <i />
-                <i />
-              </div>
-              <span className="demo-slide-footer">
-                {t("home.eyebrow")} <b>04</b>
-              </span>
-            </div>
-            <div className="demo-bottom">
-              <span>04 / 12</span>
-              <span>✎ &nbsp; {t("home.featureAnnotations")}</span>
-            </div>
+        <section className="home-film" aria-label={t("home.videoTitle")}>
+          <div className="home-film-label"><span>{t("home.videoTitle")}</span></div>
+          <div className="home-film-screen">
+            {playing ? (
+              <iframe src="https://www.youtube-nocookie.com/embed/U_ktfSlkMhU?autoplay=1&rel=0" title={t("home.videoTitle")} allow="autoplay; encrypted-media; picture-in-picture" allowFullScreen referrerPolicy="strict-origin-when-cross-origin" />
+            ) : (
+              <>
+                <img src="/brand/video-poster-v1.jpg" alt={t("home.videoAlt")} width="1280" height="720" />
+                <button type="button" onClick={() => setPlaying(true)} aria-label={t("home.videoPlay")}>
+                  <span className="home-film-play" aria-hidden="true">▶</span>
+                  <span>{t("home.videoPlay")}</span>
+                </button>
+              </>
+            )}
           </div>
-          <div className="demo-phone">
-            <div className="demo-phone-top">
-              slidesync <span>●</span>
-            </div>
-            <div className="demo-slide">
-              <h2>{t("home.headline")}</h2>
-              <div className="demo-geometry">
-                <i />
-                <i />
-                <i />
-              </div>
-            </div>
-            <p>{t("home.featureAnnotations")}</p>
-            <div className="demo-tools">✎ &nbsp; T &nbsp; ↶ &nbsp; ●</div>
-          </div>
-        </div>
+          <p className="home-film-caption">{t("home.videoCaption")}</p>
+        </section>
       </section>
       <section id="how" className="how">
         <span className="eyebrow">{t("home.eyebrow")}</span>

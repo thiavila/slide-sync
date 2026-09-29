@@ -93,5 +93,9 @@
   "join.submit": "Raum beitreten",
   "present.newTitle": "Deine nächste Folie beginnt hier.",
   "home.navHow": "So funktioniert’s",
-  "home.createdBy": "Entwickelt von"
+  "home.createdBy": "Entwickelt von",
+  "home.videoTitle": "Slidesync in Aktion",
+  "home.videoPlay": "So funktioniert es",
+  "home.videoAlt": "Ein Vortragender teilt Folien mit dem Publikum",
+  "home.videoCaption": "Starte eine Sitzung. Teile den QR-Code. Verbinde alle."
 }

@@ -93,5 +93,9 @@
   "join.submit": "ルームに参加",
   "present.newTitle": "次のスライドはここから。",
   "home.navHow": "使い方",
-  "home.createdBy": "制作"
+  "home.createdBy": "制作",
+  "home.videoTitle": "Slidesyncの使い方を見る",
+  "home.videoPlay": "使い方を見る",
+  "home.videoAlt": "発表者が参加者とスライドを共有する様子",
+  "home.videoCaption": "セッションを開始。QRコードを共有。みんなで参加。"
 }

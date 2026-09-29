@@ -93,5 +93,9 @@
   "join.submit": "Rejoindre la salle",
   "present.newTitle": "Votre prochaine diapositive commence ici.",
   "home.navHow": "Comment ça marche",
-  "home.createdBy": "Créé par"
+  "home.createdBy": "Créé par",
+  "home.videoTitle": "Découvrez Slidesync en action",
+  "home.videoPlay": "Découvrez comment ça marche",
+  "home.videoAlt": "Un intervenant partage ses diapositives avec le public",
+  "home.videoCaption": "Lancez une session. Partagez le code QR. Rassemblez tout le monde."
 }

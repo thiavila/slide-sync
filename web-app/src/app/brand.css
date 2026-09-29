@@ -584,3 +584,5 @@
     scroll-behavior: auto !important;
   }
 }
+
+.home-film{max-width:1000px;margin:54px auto 0;text-align:left}.home-film-label{font-size:13px;color:#777383;margin:0 4px 14px}.home-film-screen{position:relative;aspect-ratio:16/9;overflow:hidden;border-radius:24px;background:#242134;border:1px solid #e8e5ef;box-shadow:0 28px 80px #6750e824}.home-film-screen>img,.home-film-screen iframe{width:100%;height:100%;object-fit:cover;border:0}.home-film-screen button{position:absolute;inset:0;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:linear-gradient(transparent 45%,#17112590);color:white;border:0;cursor:pointer;font:600 17px inherit}.home-film-play{display:grid;place-items:center;width:80px;height:80px;border-radius:50%;background:white;color:#6750e8;font-size:26px}.home-film-screen button:focus-visible{outline:4px solid #6750e8;outline-offset:-6px}.hero .home-film-caption{text-align:center;font-size:14px;margin:20px auto;color:#777383}@media(max-width:600px){.home-film-screen{border-radius:16px}.home-film-play{width:60px;height:60px}}

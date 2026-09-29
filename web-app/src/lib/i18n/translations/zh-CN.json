@@ -93,5 +93,9 @@
   "join.submit": "加入房间",
   "present.newTitle": "你的下一张幻灯片，从这里开始。",
   "home.navHow": "使用方法",
-  "home.createdBy": "创作者"
+  "home.createdBy": "创作者",
+  "home.videoTitle": "观看 Slidesync 演示",
+  "home.videoPlay": "了解使用方法",
+  "home.videoAlt": "演讲者与观众分享幻灯片",
+  "home.videoCaption": "开始会话，分享二维码，让所有人一起参与。"
 }

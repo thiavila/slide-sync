@@ -93,5 +93,9 @@
   "join.submit": "Join room",
   "present.newTitle": "Your next slide starts here.",
   "home.navHow": "How it works",
-  "home.createdBy": "Created by"
+  "home.createdBy": "Created by",
+  "home.videoTitle": "See Slidesync in action",
+  "home.videoPlay": "See how it works",
+  "home.videoAlt": "A presenter sharing slides with the audience",
+  "home.videoCaption": "Start a session. Share the QR code. Bring everyone along."
 }
